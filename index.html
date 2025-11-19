@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head> 
+<body>
+    <header>
+        <a href="#" class="logo">Sarina Shakya</a>
+
+        
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="nav">
+
+            <a href="#about" class="active">About</a>
+            <a href="#education" >Education</a>
+            <!--<a href="#" >Services</a>-->
+            <a href="#projects" >Projects</a>
+            <a href="#skills" >Skills</a>
+            <!--<a href="#" >Experience</a>-->
+            <a href="#contact" >Contact</a><br><br><br>
+
+        </nav>
+    </header>
+    <section class="home" id="about">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>About Me</h1>
+            <!--<h3 class="typing-text">I'm a <span></span></h3>-->
+            <p>Hello!<br><br>
+            I'm Sarina Shakya, a passionate Computer Engineering student at Lalitpur Engineering College. I am fascinated by the technological world and building my skillset across a variety of areas in computing.<br><br>
+            My academic interests include Machine Learning, Computer Vision, Image Processing, Computer Networks, and Web Development. I really enjoy the learning of new concepts. Presently, as a student, I am steadily gaining experience through University Projects, hands-on practice, and personal learning.<br><br>
+            Apart from academics, I enjoy watching horror and story-driven puzzle game videos and streams. I am also quite a foodie - I just love trying different snacks and never say no to momo or Newari foods like yomari and bara.<br><br>  
+            Thank you for visiting my portfolio! Feel free to explore my projects, my journey, and the things I'm learning along the way.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sarina-shakya-a9a082399/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sarinashakya" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <!--<a href="#"><i class="fa-brands fa-x-twitter"></i></a>-->
+                <a href="https://www.instagram.com/sarinashakya__/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/sarina.shakya.2025" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <a href="#contact" class="btn">Hire me</a>
+            <a href="https://drive.google.com/uc?export=download&id=1Yjvc3SRPZpEorqcbDAWeAPLNL2bNMJhs" 
+            class="btn-rounded-black">
+            Download Resume
+            </a>
+
+
+
+        </div>
+    </section>
+
+    <section class="education" id="education">
+    <h2 class="heading">Education</h2>
+
+    <div class="education-block">
+        <h3>Lalitpur Engineering College</h3>
+        <span class="education-date">2022 - Present</span>
+        <h4>Bachelor's in Computer Engineering</h4>
+    </div>
+
+    <div class="education-block">
+        <h3>Omega International College</h3>
+        <span class="education-date">2020 - 2021</span>
+        <h4>Science</h4>
+        <ul>
+            <li>GPA: 3.57</li>
+        </ul>
+    </div>
+
+    <div class="education-block">
+        <h3>Horizon English School</h3>
+        <span class="education-date">2005 - 2019</span>
+        <ul>
+            <li>GPA: 3.65</li>
+        </ul>
+    </div>
+    </section>
+
+    <section class="projects" id="projects">
+    <h2 class="heading">Projects</h2>
+
+    <article class="project-card">
+        <h3>Virtual Painting System using Finger Gesture Detection and Recognition <a class="project-link" href="https://github.com/sarinashakya/Virtual-Painting-System-using-Finger-Gesture-Detection-and-Recognition"  target="_blank" aria-label="VIRTUAL CANVAS project link">(Link to Project)</a></h3>
+
+        <p class="skills"><strong>Relevant Skills:</strong>
+        Python, OpenCV, MediaPipe, NumPy, Computer Vision, Gesture Recognition, Real-time Processing
+        </p>
+
+        <p class="description">
+        Developed a contactless virtual painting system that translates finger gestures into real-time brush strokes. The system performs hand landmark detection, fingertip tracking and gesture-to-command mapping to support drawing, erasing certain parts on screen and clearing canvases. Implemented smoothing and low-latency optimizations for a responsive experience. The project demonstrates practical applications of computer-vision-based interaction for creative tools and accessibility.
+        </p>
+    </article>
+
+
+    <article class="project-card">
+        <h3>CAPTIONARY-Generating Image Descriptions With RESNET AND LSTM  <a class="project-link" href="https://github.com/sarinashakya/CAPTIONARY-Generating-Image-Descriptions-With-RESNET-AND-LSTM"  target="_blank" aria-label="CAPTIONARY-Generating Image Descriptions With RESNET AND LSTM project link">(Link to Project)</a></h3>
+
+        <p class="skills"><strong>Relevant Skills:</strong>
+        Python, Tensorflow, ResNet, LSTM, Image Captioning, Flickr8k Dataset, Feature Extraction, Model Training
+        </p>
+
+        <p class="description">
+        Designing and implementing an image captioning model combining ResNet for deep visual feature extraction and an LSTM decoder for natural language generation. Processed and cleaned the Flickr8k dataset, and embedded captions using tokenization and sequence padding. Trained the CNN-LSTM architecture to generate meaningful textual descriptions of images. The project demonstrates the integration of computer vision and natural language processing for multimodal learning.
+        </p>
+    </article>
+    </section>
+
+    <section class="skills" id="skills">
+    <h2 class="heading">Skills</h2>
+
+    <div class="skills-wrapper">
+
+        <div class="skills-column">
+            <div class="skill-item">
+                <img src="html.png" alt="">
+                <span>HTML</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="css.png" alt="">
+                <span>CSS</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="jvs.png" alt="">
+                <span>JavaScript</span>
+            </div>
+        </div>
+
+        <div class="skills-column">
+            <div class="skill-item">
+                <img src="c.png" alt="">
+                <span>C</span>
+            </div>
+
+             <div class="skill-item">
+                <img src="c++.png" alt="">
+                <span>C++</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="python.jpeg" alt="">
+                <span>Python</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="https://formspree.io/f/xqawvbvj" method="POST">
+
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email"  placeholder="Email" required>
+            </div>
+            
+        </div>
+
+        <div class="input-group-2">
+            <textarea name="message" id="" placeholder="Your Message" cols="30" rows="8" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+
+        </div>
+
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/sarina-shakya-a9a082399/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sarinashakya" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <!--<a href="#"><i class="fa-brands fa-x-twitter"></i></a>-->
+                <a href="https://www.instagram.com/sarinashakya__/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/sarina.shakya.2025" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+
+    <p class="copyright">
+        © Sarina Shakya | All Rights Reserved
+    </p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
