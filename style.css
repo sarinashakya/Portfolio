@@ -305,7 +305,7 @@ span{
 
 
 .project-card { 
-    background: #000000; 
+    background: ##bcbcbc; 
     border-radius: 12px; 
     padding: 1.1rem 1.25rem; 
     box-shadow: 0 6px 18px rgba(0,0,0,0.06); 
@@ -519,4 +519,5 @@ span{
     .skill-item{
         width: 350px;
     }
+
 }
