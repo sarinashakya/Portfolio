@@ -1,6 +1,6 @@
 # Hi, I'm Sarina Shakya 👋
 
-I'm a Computer Engineering student passionate about web development, UI/UX design, and building interactive projects. I love turning ideas into functional digital experiences.
+I'm a Computer Engineering student passionate about web development, testing, UI/UX design and building interactive projects. I love turning ideas into functional digital experiences.
 
 
 
