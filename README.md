@@ -32,6 +32,7 @@ I've also been developing my skills in test automation with Selenium and Python,
 * Web Element Locators
 * Form & Input Validation
 * Automated Test Cases
+* pytest
 
  
 ### Database & Web 
