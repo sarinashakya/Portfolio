@@ -55,7 +55,6 @@ I've also been developing my skills in test automation with Selenium and Python,
 ### Currently Learning 
 
 * Advanced Selenium & Test Automation
-* API Testing with Postman
 * SQL for QA & Database Validation
 * Test Design Techniques
 * CI/CD & QA Automation Practices
