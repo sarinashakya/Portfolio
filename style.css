@@ -276,6 +276,7 @@ span{
 .experience-block li {
     font-size: 1.65rem;
     color: #444;
+    margin-bottom: 10px;
 }
 
 .education {
