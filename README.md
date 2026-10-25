@@ -2,10 +2,9 @@
 
 I'm a Computer Engineering graduate interested in Software Quality Assurance, Web Development, Test Automation, and Software Engineering. I enjoy understanding how software works, finding ways to improve it, and building reliable digital experiences that meet both user and client needs.
 
-I'm currently working as a QA Intern, where I take ownership of QA activities for live client projects. I work closely with developers to test features, identify and track defects, validate client requirements, and improve the overall quality and usability of production websites. This experience has also given me the opportunity to work in a professional software development environment and collaborate across different areas of development.
+I'm currently working as a **QA Trainee** at **Maitri Services** with strengths in software testing, debugging, and problem-solving. I previously worked as a QA Intern, where I took ownership of QA activities for live client projects. I worked closely with developers to test features, identify and track defects, validate client requirements, and improve the overall quality and usability of production websites. These experiences have given me the opportunity to work in professional software development environments and collaborate across different areas of development.
 
 I've also been developing my skills in test automation with Selenium and Python, SQL for database testing and validation, and exploring different areas of software development to discover where I can grow further.
-
 
 
 ## Skills 
